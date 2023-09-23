@@ -1,0 +1,78 @@
+/* App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Calculator.css */
+.calculator {
+  width: 320px;
+  margin: 0 auto;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+  padding: 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.button-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.numeric-buttons {
+  flex: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.button {
+  flex: 1;
+  height: 50px;
+  width: 50px; /* Añadir un ancho fijo para todos los botones */
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.function-buttons {
+  flex: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.button-column {
+  margin: 5px 0;
+}
+
+/* Button.css */
+.button:hover {
+  background-color: #ddd;
+}
+
+.button:active {
+  background-color: #ccc;
+}
